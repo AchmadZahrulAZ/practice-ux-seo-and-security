@@ -1,0 +1,44 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- homepage -->
+  <url>
+    <loc>https://slicing-kelompok-4.vercel.app/</loc>
+    <lastmod>2024-11-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!-- about -->
+  <url>
+    <loc>https://slicing-kelompok-4.vercel.app/about</loc>
+    <lastmod>2024-11-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- our services -->
+  <url>
+    <loc>https://slicing-kelompok-4.vercel.app/ourservices</loc>
+    <lastmod>2024-11-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- portfolio -->
+  <url>
+    <loc>https://slicing-kelompok-4.vercel.app/portfolio</loc>
+    <lastmod>2024-11-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- blog -->
+  <url>
+    <loc>https://slicing-kelompok-4.vercel.app/blog</loc>
+    <lastmod>2024-11-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- contact -->
+  <url>
+    <loc>https://slicing-kelompok-4.vercel.app/contact</loc>
+    <lastmod>2024-11-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>

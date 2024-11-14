@@ -21,9 +21,9 @@ const AboutUs = () => {
             One of the Fastest Way to Business Growth
           </h1>
           <p className="font-medium py-8">
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
+            It is a long established fact that a reader will be distracted <br /> by
+            the readable content of a page when looking at its layout.<br /> The point
+            of using Lorem Ipsum is that it has a more-or-less<br /> normal
             distribution of letters, as opposed
           </p>
           {/* LINK TO CALL (WA) */}

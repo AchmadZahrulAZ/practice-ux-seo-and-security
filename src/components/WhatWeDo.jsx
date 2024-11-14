@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import ServiceTeamWork from '../assets/ServiceTeamWork.png';
 import ServiceVision from '../assets/ServiceVision.png';
 import ServiceGoal from '../assets/ServiceGoal.png';
@@ -10,8 +11,57 @@ import ServiceHubSpot from '../assets/ServiceHubSpot.png';
 import ServiceEmail from '../assets/ServiceEmail.png';
 
 const OurServices = ({ button }) => {
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Your Company",
+    "url": "https://slicing-kelompok-4.vercel.app/",
+    "logo": "https://slicing-kelompok-4.vercel.app/logo.png",
+    "service": [
+      {
+        "@type": "Service",
+        "name": "Web Design / Development",
+        "description": "Professional web design and development services.",
+        "image": ServiceWebDesign
+      },
+      {
+        "@type": "Service",
+        "name": "UI/UX Design",
+        "description": "User interface and user experience design services.",
+        "image": ServiceUiUx
+      },
+      {
+        "@type": "Service",
+        "name": "Website Migration",
+        "description": "Website migration services for improved performance and stability.",
+        "image": ServiceWebsite
+      },
+      {
+        "@type": "Service",
+        "name": "App Development",
+        "description": "Custom app development services for various platforms.",
+        "image": ServiceApp
+      },
+      {
+        "@type": "Service",
+        "name": "HubSpot Integration",
+        "description": "HubSpot integration services to streamline your marketing efforts.",
+        "image": ServiceHubSpot
+      },
+      {
+        "@type": "Service",
+        "name": "Email Marketing",
+        "description": "Effective email marketing services to boost engagement.",
+        "image": ServiceEmail
+      }
+    ]
+  };
+
   return (
     <>
+      <Helmet>
+        <script type="application/ld+json">{JSON.stringify(schemaMarkup)}</script>
+      </Helmet>
       <div className="font-raleway">
         {/* What We Do Section */}
         <section className="flex flex-col xl:flex-row items-center mb-12 bg-offwhite py-20 md:px-32 px-10 gap-8">
